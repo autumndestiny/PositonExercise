@@ -76,25 +76,24 @@ body {
 }
 /* 4 */
 #soul {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     right: 0;
 }
 /* 5 */
 #reality {
-    position: fixed;
+    position: absolute;
     bottom: 150px;
     right: 0;
-    z-index: ;
 }
 /* 6 */
 #mind {
-    position: absolute;
+    position: fixed;
     right: 0;
 }
 /* 7 */
 #time {
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 0;
 }
@@ -102,5 +101,21 @@ body {
 h1 {
     position: sticky;
     top: 0;
+    z-index: 1;
+}
+/* BONUS */
+/* 1 */
+#reality {
+    z-index: 3;
+}
+/* 2 */
+#soul {
+    z-index: 1;
+}
+#time {
     z-index: 2;
+}
+/* 3 */
+h2 {
+    position: sticky;
 }
